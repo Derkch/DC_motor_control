@@ -13,4 +13,4 @@ K = 0.01
 R = 1
 L = 0.5
 
-K_realim = np.array([[0.0071, 0.4167]]) #Ganancias de realimentación obtenidas por LQR
+K_feedback = np.array([[0.0071, 0.4167]]) #Feedback gain matrix, calculated using LQR
